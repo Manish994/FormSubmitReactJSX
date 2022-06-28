@@ -7,6 +7,7 @@ import PasswordField from "./PasswordField";
 export default function Form() {
   //status
   const [usernameStatus, setUsernameStatus] = useState("");
+
   const [emailStatus, setEmailStatus] = useState("");
   //i'm showing 4 different error msg in password so use object instead
   const [passwordStatus, setPasswordStatus] = useState({});
