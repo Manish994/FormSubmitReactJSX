@@ -57,7 +57,7 @@ export default function PasswordField({
 
             if (!_status.spaceCheck) return;
 
-            setStatus(_status);
+            setStatus(_status); 
 
             if (
               confirmPassword.current !== "" &&
